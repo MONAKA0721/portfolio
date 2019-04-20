@@ -1,13 +1,16 @@
 <template>
   <div id="app">
-    <img src="./assets/logo.png">
+    <myheader></myheader>
     <router-view/>
+    <img src="./assets/logo.png">
   </div>
 </template>
 
 <script>
+import myheader from './components/myheader'
 export default {
-  name: 'App'
+  name: 'App',
+  components: { myheader }
 }
 </script>
 
@@ -18,6 +21,17 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
 }
+
+#mainTitle{
+  margin: 60px;
+  font-size: 12ex;
+  margin-bottom: 0px;
+}
+
+#name{
+  margin-top: 0px;
+  margin-right: 300px;
+}
+
 </style>
