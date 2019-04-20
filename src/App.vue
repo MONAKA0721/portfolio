@@ -25,7 +25,7 @@ export default {
 
 #mainTitle{
   margin: 60px;
-  font-size: 10vmin;
+  font-size: 100px;
   margin-bottom: 0px;
 }
 
