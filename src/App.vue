@@ -2,7 +2,6 @@
   <div id="app">
     <myheader></myheader>
     <router-view/>
-    <img src="./assets/logo.png">
   </div>
 </template>
 
@@ -70,6 +69,11 @@ h2 {
       margin: 0px;
     }
 }
+@@media screen and (max-width:340px) {
+    li{
+        font-size: 1em;
+    }
+}
 
 #mainTitle{
   margin: 0px;
@@ -81,6 +85,10 @@ h2 {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
+}
+
+#logo{
+  animation-delay: 2s;
 }
 
 </style>
