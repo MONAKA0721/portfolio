@@ -90,7 +90,7 @@ h2 {
     /* 中身がスクロールするビュー */
     .scroll-nav__view {
       -webkit-overflow-scrolling: touch;
-      overflow-x: scroll;
+      overflow-x: auto;
     }
 
     /* 実際にスクロールするオブジェクト */
