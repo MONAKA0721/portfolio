@@ -1,11 +1,20 @@
 <template>
   <div>
     <h1>About</h1>
-    <p>
-      ここはページ２です。
-    </p>
-    <router-link to="/">Go to page1</router-link>
-    <div uk-alert>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
+    <div class="uk-card uk-card-default uk-card-body" id="self-introduction">
+      <table>
+        <tbody>
+          <tr>
+            <th>Name</th>
+            <td>住江 祐哉</td>
+          </tr>
+          <tr>
+            <th>生年月日</th>
+            <td>1997/07/21</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
   </div>
 </template>
 
