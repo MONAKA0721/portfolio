@@ -32,14 +32,16 @@ h2 {
     font-size: calc(1.35rem + ((1vw - 4.8px) * 5.3333));
     line-height: 1.3;
 }
-@media (min-width: 1200px) {/* 1200px以上*/
+@media screen and (min-width: 1200px) {/* 1200px以上*/
     h1 {
       font-size: 10rem;/* 36px*/
     }
     h2 {
         font-size: 6rem;
     }
-
+    .uk-navbar-nav>li>a{
+      font-size: 2rem;
+    }
     #mainTitle{
       margin: 60px;
       margin-bottom: 0px;
@@ -69,10 +71,71 @@ h2 {
       margin: 0px;
     }
 }
-@@media screen and (max-width:340px) {
+@media screen and (max-width:339px) {
     li{
-        font-size: 1em;
+        /* display: table-cell; */
     }
+    .uk-navbar-nav li a{
+      min-height: 48px;
+    }
+
+    #toggle{
+    }
+    .scroll-nav {
+      /* スクロールバーを見えなくするため */
+      height: 48px; /* 実際に表示する高さ */
+      overflow-y: hidden;
+    }
+
+    /* 中身がスクロールするビュー */
+    .scroll-nav__view {
+      -webkit-overflow-scrolling: touch;
+      overflow-x: scroll;
+    }
+
+    /* 実際にスクロールするオブジェクト */
+    .scroll-nav__list {
+      /* tableにすることで、横幅指定をすることなくmargin: autoによる中央寄せが可能になる */
+      display: table;
+      list-style: none;
+      margin: 0 auto;
+      /* 下方向に余分なpadding部分を持たせ、そこにスクロールバーが表示される */
+      padding: 0 0 24px 0;
+    }
+
+    .scroll-nav__item {
+      /* itemを横並びに、かつ親要素がその親要素の横幅からはみだすことが可能になる */
+      display: table-cell;
+    }
+
+    .scroll-nav a {
+      display: block;
+      padding: 12px;
+      /* 文字列の自動改行を禁止 */
+      white-space: nowrap;
+    }
+
+    /* 以下サンプル用デザイン */
+
+    .scroll-nav {
+      background: rgb(50, 50, 50);
+    }
+
+    .scroll-nav a {
+      color: rgb(224, 224, 224);
+      font-family: sans-serif;
+      font-size: 14px;
+      /* 行高が24pxになるように調整 24/14 */
+      line-height: 1.71428;
+      text-decoration: none;
+    }
+}
+
+@media screen and (min-width:340px) {
+    #toggle{
+      display: none;
+    }
+
 }
 
 #mainTitle{
