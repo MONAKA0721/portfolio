@@ -1,7 +1,7 @@
 <template>
   <div>
     <h1 id="mainTitle" class="animated fadeInRight">My Portfolio Site</h1>
-    <div class="uk-grid">
+    <div class="uk-grid" id="name-grid">
     <div class="uk-width-1-2">
 
     </div>
@@ -37,6 +37,10 @@
 
 #by{
   animation-delay: 1.5s;
+}
+
+#name-grid{
+  padding: 0;
 }
 
 </style>

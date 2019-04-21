@@ -188,7 +188,8 @@ h2 {
 }
 
 .uk-grid{
-  margin: 40px;
+  margin: 0px;
+  padding-right: 30px;
 }
 
 #mainTitle{
