@@ -33,7 +33,7 @@
       <div id="modal-media-image" class="uk-flex-top" uk-modal>
         <div class="uk-modal-dialog uk-width-auto uk-margin-auto-vertical">
           <button class="uk-modal-close-outside" type="button" uk-close></button>
-          <img src="../assets/logo.png" alt="">
+          <img src="../assets/map.png" alt="">
         </div>
       </div>
     </div>

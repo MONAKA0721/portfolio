@@ -138,6 +138,10 @@ h2 {
 
 }
 
+.uk-grid{
+  margin: 40px;
+}
+
 #mainTitle{
   margin: 0px;
 }

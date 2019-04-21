@@ -1,12 +1,14 @@
 <template>
   <div>
-
     <h1>Skills</h1>
-    <p>
-
-    </p>
-    <router-link to="/">Go to page1</router-link>
-    <div uk-alert>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
+    <div class="uk-child-width-expand@s uk-text-center" uk-grid>
+      <div>
+        <div class="uk-card uk-card-default uk-card-body">コンピュータビジョン</div>
+      </div>
+      <div>
+        <div class="uk-card uk-card-default uk-card-body">UI作成</div>
+      </div>
+    </div>
   </div>
 </template>
 
