@@ -18,7 +18,7 @@
           </tr>
           <tr>
             <th>University</th>
-            <td>京都大学 工学部 情報学科</td>
+            <td style='white-space:nowrap; font-size:0.5em;'>京都大学 工学部 情報学科</td>
           </tr>
           <tr>
             <th>Hobby</th>
@@ -27,6 +27,10 @@
           <tr>
             <th>Travel History</th>
             <td><a class="" href="#modal-media-image" uk-toggle>Image</a></td>
+          </tr>
+          <tr>
+            <th>Github</th>
+            <td><a class="" href='https://github.com/MONAKA0721' target="_blank">MONAKA0721</a></td>
           </tr>
         </tbody>
       </table>
@@ -49,5 +53,11 @@
     margin-left:  300px;
     margin-right: 300px;
   }
+}
+@media (max-width:999px) {
+    #self-introduction{
+      padding-top: 0px;
+      padding-bottom: 0px;
+    }
 }
 </style>

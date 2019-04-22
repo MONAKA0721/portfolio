@@ -1,7 +1,9 @@
 <template>
   <div id="app">
-    <myheader></myheader>
-    <router-view/>
+    <myheader style="position:sticky; top:0;"></myheader>
+    <transition mode="out-in">
+      <router-view/>
+    </transition>
   </div>
 </template>
 
@@ -51,7 +53,7 @@ h2 {
       margin-right: 0px;
     }
     #self-introduction{
-      margin: 60px;
+      margin-top: 0px;
     }
 }
 @media screen and (max-width: 640px) {/* 640px以下*/
@@ -181,10 +183,6 @@ h2 {
 }
 
 @media screen and (min-width:340px) {
-    #toggle{
-      display: none;
-    }
-
 }
 
 .uk-grid{
@@ -192,6 +190,9 @@ h2 {
   padding-right: 30px;
 }
 
+.uk-card{
+  position: inherit;
+}
 #mainTitle{
   margin: 0px;
 }
@@ -206,6 +207,13 @@ h2 {
 
 #logo{
   animation-delay: 2s;
+}
+
+.v-enter-active, .v-leave-active {
+  transition: opacity .5s;
+}
+.v-enter, .v-leave-to {
+  opacity: 0;
 }
 
 </style>
