@@ -191,7 +191,7 @@ h2 {
 }
 
 .uk-card{
-  position: inherit;
+  position: inherit !important;
 }
 #mainTitle{
   margin: 0px;
