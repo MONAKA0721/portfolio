@@ -1,7 +1,7 @@
 <template>
   <div >
     <h1>About</h1>
-    <div class="uk-card uk-card-default uk-card-body" id="self-introduction">
+    <div class="uk-card uk-card-default uk-card-body" id="self-introduction" style="position:inherit">
       <table class="uk-table">
         <tbody>
           <tr>
