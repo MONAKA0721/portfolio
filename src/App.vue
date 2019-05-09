@@ -216,4 +216,7 @@ h2 {
   opacity: 0;
 }
 
+#usedLanguage{
+  padding-right: 20px;
+}
 </style>
