@@ -46,7 +46,7 @@ p{
         font-size: 6rem;
     }
     p{
-      font-size: 1.6rem;
+      font-size: 16px;
     }
     .uk-navbar-nav>li>a{
       font-size: 2rem;
