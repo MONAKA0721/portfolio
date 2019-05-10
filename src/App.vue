@@ -34,12 +34,19 @@ h2 {
     font-size: calc(1.35rem + ((1vw - 4.8px) * 5.3333));
     line-height: 1.3;
 }
+p{
+  font-size:1.6rem;
+  font-size: calc(1rem + ((1vw - 6.4px) * 1.0714));
+}
 @media screen and (min-width: 1200px) {/* 1200px以上*/
     h1 {
       font-size: 10rem;/* 36px*/
     }
     h2 {
         font-size: 6rem;
+    }
+    p{
+      font-size: 1.6rem;
     }
     .uk-navbar-nav>li>a{
       font-size: 2rem;
@@ -65,6 +72,9 @@ h2 {
     }
     h2 {
         font-size: 2rem;/* 20px*/
+    }
+    p{
+        font-size:1rem;
     }
     #mainTitle{
       margin: 0px;
