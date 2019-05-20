@@ -1,7 +1,7 @@
 <template>
   <div>
     <h1>Works</h1>
-    <div class="uk-child-width-expand@s uk-text-center" uk-grid style="position:inherit">
+    <div class="uk-grid-small uk-child-width-1-3@s uk-text-center uk-flex-left" uk-grid style="position:inherit">
       <div>
           <div class="uk-card uk-card-default uk-card-body">
             <h3><a class="uk-link-heading" href="https://tristagram.herokuapp.com/" target="_blank">Tristagram</a></h3>
@@ -11,7 +11,6 @@
               <td>Rails , HTML , CSS</td>
             </tr>
           </div>
-
       </div>
       <div>
           <div class="uk-card uk-card-default uk-card-body">
@@ -32,6 +31,14 @@
               <td>Java(Servlet) , PostgreSQL</td>
             </tr>
           </div>
+      </div>
+      <div class="uk-card uk-card-default uk-card-body">
+        <h3><a class="uk-link-heading" href="http://taskforwantedly.herokuapp.com/" target="_blank">TODOアプリ</a></h3>
+        <p>サマーインターンの課題として作成したTODOアプリです。Reactを用いています。レスポンシブデザインに対応しています。</p>
+        <tr>
+          <th id="usedLanguage">使用言語 </th>
+          <td>React, TypeScript</td>
+        </tr>
       </div>
     </div>
   </div>
