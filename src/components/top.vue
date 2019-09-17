@@ -1,5 +1,5 @@
 <template>
-  <div id="container">
+  <div id="topPage">
     <h1 id="mainTitle">Welocome to YUYA SUMIE's portfolio site</h1>
     <br/>
     <div id="snsIcon">
@@ -19,7 +19,7 @@
   margin-left: 25px;
   margin-right: 25px;
 }
-#container{
+#topPage{
   display: block;
   height: 1000px;
 }
