@@ -24,6 +24,7 @@ body{
     font-size:1.6rem;/* 16px*/
     line-height: 2;
     margin: 0px;
+    background-image: url("light-veneer.png")
 }
 h1 {
     font-size: 36px;/* IE8以下とAndroid4.3以下用フォールバック */
@@ -41,7 +42,8 @@ p{
 }
 @media screen and (min-width: 1200px) {/* 1200px以上*/
     h1 {
-      font-size: 10rem;/* 36px*/
+      font-size: 5rem;/* 36px*/
+      font-weight: lighter;
     }
     h2 {
         font-size: 6rem;
