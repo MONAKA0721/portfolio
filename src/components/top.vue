@@ -1,6 +1,6 @@
 <template>
   <div id="topPage">
-    <h1 id="mainTitle">Welocome to YUYA SUMIE's portfolio site</h1>
+    <h1 id="mainTitle">Welcome to YUYA SUMIE's portfolio site</h1>
     <br/>
     <div id="snsIcon">
       <a href="https://www.facebook.com/lovemonaka?ref=bookmarks" class="snsLink"><i class="fab fa-facebook fa-3x"></i></a>

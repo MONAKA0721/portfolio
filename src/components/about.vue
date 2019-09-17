@@ -25,21 +25,11 @@
             <td>旅行 , スノボ</td>
           </tr>
           <tr>
-            <th>Travel History</th>
-            <td><a class="" href="#modal-media-image" uk-toggle>Image</a></td>
-          </tr>
-          <tr>
             <th>Github</th>
             <td><a class="" href='https://github.com/MONAKA0721' target="_blank">MONAKA0721</a></td>
           </tr>
         </tbody>
       </table>
-      <div id="modal-media-image" class="uk-flex-top" uk-modal>
-        <div class="uk-modal-dialog uk-width-auto uk-margin-auto-vertical">
-          <button class="uk-modal-close-outside" type="button" uk-close></button>
-          <img src="../assets/map.png" alt="">
-        </div>
-      </div>
     </div>
   </div>
 </template>
