@@ -23,6 +23,7 @@ html{
 body{
     font-size:1.6rem;/* 16px*/
     line-height: 2;
+    margin: 0px;
 }
 h1 {
     font-size: 36px;/* IE8以下とAndroid4.3以下用フォールバック */
@@ -75,9 +76,6 @@ p{
     }
     p{
         font-size:1rem;
-    }
-    #mainTitle{
-      margin: 0px;
     }
     #self-introduction{
       margin: 0px;
@@ -203,16 +201,11 @@ p{
 .uk-card{
   position: inherit !important;
 }
-#mainTitle{
-  margin: 0px;
-}
 
 #app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
+  /* font-family: 'Avenir', Helvetica, Arial, sans-serif; */
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;
 }
 
 #logo{

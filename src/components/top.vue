@@ -1,24 +1,12 @@
 <template>
-  <div>
-    <h1 id="mainTitle" class="animated fadeInRight">My Portfolio Site</h1>
-    <div class="uk-grid" id="name-grid">
-    <div class="uk-width-1-2">
-
+  <div id="container">
+    <h1 id="mainTitle">Welocome to YUYA SUMIE's portfolio site</h1>
+    <br/>
+    <div id="snsIcon">
+      <a href="https://www.facebook.com/lovemonaka?ref=bookmarks" class="snsLink"><i class="fab fa-facebook fa-3x"></i></a>
+      <a href="https://instagram.com/yuyasumie" class="snsLink"><i class="fab fa-instagram fa-3x"></i></a>
+      <a href="https://github.com/MONAKA0721" class="snsLink"><i class="fab fa-github fa-3x"></i></a>
     </div>
-    <div class="uk-width-1-2">
-      <h2 class='uk-text-center animated fadeInLeft' id="name">-Yuya Sumie</h2>
-    </div>
-    <div class="uk-width-1-3">
-
-    </div>
-    <div class="uk-width-1-3">
-      <h2 class="animated fadeIn uk-text-left" id="by">by</h2>
-    </div>
-    <div class="uk-width-1-3">
-
-    </div>
-  </div>
-  <img src="../assets/logo.png" class="animated fadeInDown" id="logo">
   </div>
 </template>
 
@@ -26,21 +14,24 @@
 </script>
 
 <style>
+.snsLink{
+  color:black;
+  margin-left: 25px;
+  margin-right: 25px;
+}
+#container{
+  display: block;
+  height: 1000px;
+}
 #mainTitle{
-  animation-delay: 0.3s;
-  animation-duration: 0.3s;
+  display: inline-block;
+  font-weight: lighter;
+  font-size: 70px;
+  text-align: center;
+  width: 70%;
+  margin-top: 200px;
 }
-#name{
-  animation-delay: 0.9s;
-  animation-duration: 0.3s;
+#snsIcon{
+  margin-top: 20px;
 }
-
-#by{
-  animation-delay: 1.5s;
-}
-
-#name-grid{
-  padding: 0;
-}
-
 </style>
