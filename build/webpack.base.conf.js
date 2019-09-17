@@ -54,6 +54,10 @@ module.exports = {
       {
         test: /\.(png|jpe?g|gif|svg)(\?.*)?$/,
         loader: 'file-loader',
+        options: {
+          limit: 10000,
+          name: utils.assetsPath('css/[name].[ext]')
+        }
       },
       {
         test: /\.(mp4|webm|ogg|mp3|wav|flac|aac)(\?.*)?$/,
