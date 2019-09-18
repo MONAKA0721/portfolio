@@ -55,7 +55,8 @@ module.exports = {
         test: /\.(png|jpe?g|gif|svg)(\?.*)?$/,
         loader: 'file-loader',
         options: {
-          name: utils.assetsPath('css/[name].[ext]')
+          name: utils.assetsPath('css/[name].[ext]'),
+          outputPath : 'assets/'
         }
       },
       {
