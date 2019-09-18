@@ -6,9 +6,9 @@
         <div class="uk-card uk-card-default uk-card-body">
           <a href="https://www.slideshare.net/secret/upZ841uIHPje3k">コンピュータビジョン</a></div>
       </div>
-      <div>
+      <!-- <div>
         <div class="uk-card uk-card-default uk-card-body">UI作成</div>
-      </div>
+      </div> -->
     </div>
   </div>
 </template>
