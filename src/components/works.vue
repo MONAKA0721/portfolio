@@ -12,6 +12,8 @@
         </tr>
       </div>
 
+      <img id="tristagram-image" src="../assets/tristagram.png" width="380" height="200">
+
       <div class="works-box" id='deeplearning'>
         <h3><a href="https://github.com/MONAKA0721/DeepLearning" target="_blank">DeepLearning</a></h3>
         <p>授業の一貫として作成したニューラルネットです。MNISTのデータセットの数字のクラス識別ができます。</p>
@@ -76,5 +78,11 @@ h3 > a {
   grid-row: 4/5;
   grid-column: 2/3;
   padding: 0px 25vw 0px 10px;
+}
+#tristagram-image{
+  grid-row: 1/2;
+  grid-column: 2/3;
+  margin-top: 15px;
+  margin-bottom: 15px;
 }
 </style>
