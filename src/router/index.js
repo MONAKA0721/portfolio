@@ -3,6 +3,7 @@ import Router from 'vue-router'
 import top from '@/components/top'
 import about from '@/components/about'
 import works from '@/components/works'
+import experiences from '@/components/experiences'
 import languages from '@/components/languages'
 import skills from '@/components/skills'
 
@@ -21,6 +22,10 @@ export default new Router({
     {
       path: '/works',
       component: works
+    },
+    {
+      path: '/experiences',
+      component: experiences
     },
     {
       path: '/languages',

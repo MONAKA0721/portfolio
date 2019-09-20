@@ -24,7 +24,8 @@ body{
     font-size:1.6rem;/* 16px*/
     line-height: 2;
     margin: 0px;
-    background-image: url("../../lightVeneer.png")
+    background-image: url("../../lightVeneer.png");
+    font-family: Lato, "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
 }
 h1 {
     font-size: 36px;/* IE8以下とAndroid4.3以下用フォールバック */
