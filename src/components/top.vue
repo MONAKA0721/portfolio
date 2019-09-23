@@ -21,7 +21,6 @@
 }
 #topPage{
   display: block;
-  height: 1000px;
 }
 #mainTitle{
   display: inline-block;

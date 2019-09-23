@@ -8,14 +8,14 @@
         <p>現在開発中の旅行専用SNSです。旅行の企画を簡単にできたり、今までの旅行の足跡を残せたりできるようなwebサービスを作りたいと思っています</p>
         <div>Rails</div>
       </div>
-      <img id="tristagram-image" src="../assets/tristagram.png" width="380" height="200">
+      <a href="https://tristagram.herokuapp.com/" target="_blank" id="tristagram-link"><img id="tristagram-image" src="../assets/tristagram.png"></a>
 
       <div class="works-box" id="todo">
         <div class="work-title"><a href="http://taskforwantedly.herokuapp.com/" target="_blank">TODOアプリ</a></div>
         <p>サマーインターンの課題として作成したTODOアプリです。レスポンシブデザインに対応しています。</p>
         <div>React, TypeScript</div>
       </div>
-      <img id="todo-image" src="../assets/todo_image.png" width="380" height="200">
+      <a href="http://taskforwantedly.herokuapp.com/" target="_blank" id="todo-link"><img id="todo-image" src="../assets/todo_image.png"></a>
 
       <div class="works-box" id='renderer'>
         <div class="work-title"><a href="https://github.com/MONAKA0721/Renderer" target="_blank">RENDERER</a></div>
@@ -66,17 +66,29 @@
   grid-column: 1/2;
   padding: 0px 10px 0px 25vw;
 }
+#tristagram-link{
+  margin:9px auto 0 auto;
+  width: 380px;
+  height: 200px;
+}
 #tristagram-image{
   grid-row: 1/2;
   grid-column: 2/3;
   border: solid 1px #ddbb99;
   border-radius: 8px;
   margin:9px auto 0 auto;
+  width: 380px;
+  height: 200px;
 }
 #todo{
   grid-row: 2/3;
   grid-column: 2/3;
   padding: 0px 25vw 0px 10px;
+}
+#todo-link{
+  margin:9px auto 0 auto;
+  width:380px;
+  height:200px;
 }
 #todo-image{
   grid-row: 2/3;
@@ -84,6 +96,8 @@
   border: solid 1px #ddbb99;
   border-radius: 8px;
   margin:9px auto 0 auto;
+  width:380px;
+  height:200px;
 }
 #renderer{
   grid-row: 3/4;
@@ -107,7 +121,7 @@
   grid-column: 1/2;
   padding: 0px 12.5vw 0px 12.5vw;
 }
-#test{
+/* #test{
   background-image: url("../lightVeneer.png");
-}
+} */
 </style>
