@@ -22,7 +22,9 @@
         <p>研究のためのデータセット作成用の 3D Renderer です。RGB image と Depth image を取得できます</p>
         <div>Python , OpenGL</div>
       </div>
-      <img id="renderer-image" src="../assets/renderer-image.png" width="380" height="200">
+      <a href="https://github.com/MONAKA0721/Renderer" target="_blank" id="renderer-link">
+        <img id="renderer-image" src="../assets/renderer-image.png">
+      </a>
 
       <div class="works-box" id="database">
         <div class="work-title"><a href="https://github.com/MONAKA0721/database" target="_blank">Database</a></div>
@@ -104,12 +106,19 @@
   grid-column: 1/2;
   padding: 0px 10px 0px 25vw;
 }
+#renderer-link{
+  margin:9px auto 0 auto;
+  width:380px;
+  height:200px;
+}
 #renderer-image{
   grid-row: 3/4;
   grid-column: 2/3;
   border: solid 1px #ddbb99;
   border-radius: 8px;
   margin:9px auto 0 auto;
+  width:380px;
+  height:200px;
 }
 #deeplearning{
   grid-row: 4/5;
@@ -124,4 +133,36 @@
 /* #test{
   background-image: url("../lightVeneer.png");
 } */
+@media screen and (max-width:414px) {
+  #works-wrapper{
+    display: block;
+  }
+  #tristagram{
+    padding: 0px 10px 0px 10px;
+  }
+  #tristagram-image{
+    width: 340px;
+  }
+  #tristagram-link{
+    width: 340px;
+  }
+  #todo{
+    padding: 0px 10px 0px 10px;
+  }
+  #todo-link{
+    width:340px;
+  }
+  #todo-image{
+    width:340px;
+  }
+  #renderer{
+    padding: 0px 10px 0px 10px;
+  }
+  #renderer-link{
+    width:340px;
+  }
+  #renderer-image{
+    width:340px;
+  }
+}
 </style>

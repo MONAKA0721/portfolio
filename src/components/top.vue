@@ -33,4 +33,10 @@
 #snsIcon{
   margin-top: 20px;
 }
+@media screen and (max-width:414px){
+  #mainTitle{
+    font-size: 36px;
+    margin-top: 50px;
+  }
+}
 </style>

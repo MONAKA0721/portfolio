@@ -6,7 +6,7 @@
       <div class="experiences-box" id='hakarusu'>
         <div class="experience-time">2019/10〜</div>
         <div class="experience-title">株式会社ハカルス 長期インターン参画</div>
-        <p>機械学習を用いた画像解析に関する開発や、それらを Web アプリに落とし込むプロジェクトに参加させてもらう予定です。</p>
+        <p>機械学習を用いた画像解析に関する開発や、それらを Web アプリに落とし込むプロジェクトに参加させてもらっています。</p>
       </div>
       <div class="circle" style="grid-row: 1/2;"></div>
 
@@ -15,7 +15,7 @@
       <div class="experiences-box" id="optim">
         <div class="experience-time">2019/09</div>
         <div class="experience-title">株式会社オプティム 就業型インターン</div>
-        <p></p>
+        <p>セマンティック・セグメンテーションを用い、社内で取り組んでいるプロジェクトの精度向上に関する研究を行いました</p>
       </div>
       <div class="circle" style="grid-row: 2/3;"></div>
 
@@ -88,4 +88,10 @@
 /* #test{
   background-image: url("../lightVeneer.png");
 } */
+@media screen and (max-width:414px) {
+  .experience-title{
+    font-weight: 400;
+    font-size: 16px;
+  }
+}
 </style>

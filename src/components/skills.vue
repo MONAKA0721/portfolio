@@ -12,7 +12,7 @@
         <li>Github</li>
         <li>Docker</li>
         <li>OpenGL</li>
-        <!-- <li>AWS</li> -->
+        <li>Blender</li>
         <li><a href="https://www.slideshare.net/secret/upZ841uIHPje3k" id="computer-vision-link" target="_blank">Computer Vision</a></li>
       </ul>
     </div>
@@ -34,7 +34,7 @@
 }
 ul{
   display: grid;
-  grid-template-columns: repeat(3,300px);
+  grid-template-columns: repeat(3,calc(100% / 3));
 }
 li{
   text-align: left;
@@ -48,4 +48,9 @@ li{
 /* .test{
   background-image: url("../lightVeneer.png");
 } */
+@media screen and (max-width:414px) {
+  #skills-box{
+    width:100%;
+  }
+}
 </style>
