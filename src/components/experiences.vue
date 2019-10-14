@@ -22,7 +22,7 @@
       <div class="experiences-box" id='nikkei'>
         <div class="experience-time">2019/09</div>
         <div class="experience-title">日経新聞デジタル HACK THE NIKKEI</div>
-        <p>電子短期インターン福岡会場に参加しました。日経電子版の記事データや閲覧履歴をデータ処理し、Web版における新たなサービスを提案し、実装しました。</p>
+        <p>日経電子版短期インターン福岡会場に参加しました。日経電子版の記事データや閲覧履歴をデータ処理し、Web版における新たなサービスを提案し、実装しました。</p>
       </div>
       <div class="circle" style="grid-row: 3/4;"></div>
 
@@ -92,6 +92,24 @@
   .experience-title{
     font-weight: 400;
     font-size: 16px;
+  }
+  .circle{
+    width: 16px;
+    height: 16px;
+  }
+  #experiences-wrapper{
+    display: block;
+    margin-left: 15px;
+    border-left: solid 1px darkgray;
+  }
+  #hakarusu{
+    padding: 0px 10px 0px 10px;
+  }
+  #optim{
+    padding: 0px 10px 0px 10px;
+  }
+  #nikkei{
+    padding: 0px 10px 0px 10px;
   }
 }
 </style>

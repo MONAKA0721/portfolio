@@ -52,5 +52,8 @@ li{
   #skills-box{
     width:100%;
   }
+  li{
+    font-size: 10px;
+  }
 }
 </style>

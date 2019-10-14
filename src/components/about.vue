@@ -72,9 +72,14 @@ td > a {
   }
 }
 @media (max-width:999px) {
-    #self-introduction{
-      padding-top: 0px;
-      padding-bottom: 0px;
-    }
+  #self-introduction{
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+}
+@media screen and (max-width:414px) {
+  table{
+    font-size: 16px;
+  }
 }
 </style>
