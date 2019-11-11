@@ -3,12 +3,12 @@
     <h1>Works</h1>
     <div id='works-wrapper'>
 
-      <div class="works-box" id='tristagram'>
-        <div class="work-title"><a href="https://tristagram.herokuapp.com/" target="_blank">TRISTAGRAM</a></div>
+      <div class="works-box" id='memorip'>
+        <div class="work-title"><a href="https://memorip.net/" target="_blank">Memorip</a></div>
         <p>現在開発中の旅行専用SNSです。旅行の企画を簡単にできたり、今までの旅行の足跡を残せたりできるようなwebサービスを作りたいと思っています</p>
         <div>Rails</div>
       </div>
-      <a href="https://tristagram.herokuapp.com/" target="_blank" id="tristagram-link"><img id="tristagram-image" src="../assets/tristagram.png"></a>
+      <a href="https://memorip.net/" target="_blank" id="memorip-link"><img id="memorip-image" src="../assets/memorip.png"></a>
 
       <div class="works-box" id="todo">
         <div class="work-title"><a href="http://taskforwantedly.herokuapp.com/" target="_blank">TODOアプリ</a></div>
@@ -63,17 +63,17 @@
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 270px 270px 270px 270px;
 }
-#tristagram{
+#memorip{
   grid-row: 1/2;
   grid-column: 1/2;
   padding: 0px 10px 0px 25vw;
 }
-#tristagram-link{
+#memorip-link{
   margin:9px auto 0 auto;
   width: 380px;
   height: 200px;
 }
-#tristagram-image{
+#memorip-image{
   grid-row: 1/2;
   grid-column: 2/3;
   border: solid 1px #ddbb99;
@@ -137,13 +137,13 @@
   #works-wrapper{
     display: block;
   }
-  #tristagram{
+  #memorip{
     padding: 0px 10px 0px 10px;
   }
-  #tristagram-image{
+  #memorip-image{
     width: 340px;
   }
-  #tristagram-link{
+  #memorip-link{
     width: 340px;
   }
   #todo{

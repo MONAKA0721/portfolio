@@ -7,7 +7,6 @@
         <li class="scroll-nav__item"><router-link to="/about">About</router-link></li>
         <li class="scroll-nav__item"><router-link to="/works">Works</router-link></li>
         <li class="scroll-nav__item"><router-link to="/experiences">Experiences</router-link></li>
-        <!-- <li class="scroll-nav__item"><router-link to="/languages">Languages</router-link></li> -->
         <li class="scroll-nav__item"><router-link to="/skills">Skills</router-link></li>
       </ul>
     </div>
