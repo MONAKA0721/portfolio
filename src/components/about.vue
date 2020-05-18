@@ -22,7 +22,15 @@
           </tr>
           <tr>
             <th>University</th>
-            <td>京都大学 工学部 情報学科</td>
+            <td>京都大学大学院 情報学研究科</td>
+          </tr>
+          <tr>
+            <th>Majoring</th>
+            <td>知能情報学専攻</td>
+          </tr>
+          <tr>
+            <th>Grade</th>
+            <td>M1</td>
           </tr>
           <tr>
             <th>Lab</th>

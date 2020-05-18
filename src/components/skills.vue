@@ -4,13 +4,18 @@
     <div id="skills-box">
       <ul>
         <li>Python</li>
-        <li>Ruby on Rails</li>
+        <li>Ruby</li>
+        <li>Golang</li>
         <li>C++</li>
         <li>Java</li>
         <li>JavaScript (ES6)</li>
         <li>Vue.js/React.js</li>
-        <li>Github</li>
+        <li>Git</li>
         <li>Docker</li>
+        <li>AWS S3</li>
+        <li>Firebase</li>
+        <li>Cloud SQL</li>
+        <li>GKE</li>
         <li>OpenGL</li>
         <li>Blender</li>
         <li><a href="https://www.slideshare.net/secret/upZ841uIHPje3k" id="computer-vision-link" target="_blank">Computer Vision</a></li>
